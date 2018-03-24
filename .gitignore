@@ -1,4 +1,5 @@
 */**/Debug
+*/**/x64
 *.exe
 /obj
 *.dll
@@ -6,5 +7,6 @@
 *.obj
 *.deps
 *.log
-Parallel-K_MEANS.tlog/
-vs/
+*Parallel-K_MEANS.tlog/
+*vs
+*.suo
