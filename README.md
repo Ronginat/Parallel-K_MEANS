@@ -24,7 +24,7 @@ Before you build your solution, open Methods file and go to readFromFile method.
 Change the PATH in the fopen call, pay attention that every directory is separated by double "/".
 Same action in writeToFile method.
 Build your solution.
-Open wmpichexec, browse to your solution bin/debug/.exe file and set number of processes to 3 or above. 
+Open wmpichexec, browse to your solution x64/debug/.exe file and set number of processes to 3 or above. 
 I included a sample for input file.
 Notice that an output file will appear in the solution folder, and beside that, you will see the results on the mpich console.
 The initial results are "First occurrence at t = 0.000000 with q = 0.387547".

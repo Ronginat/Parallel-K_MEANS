@@ -1,0 +1,9 @@
+Debug
+*.exe
+/obj
+*.dll
+*.cache
+*.obj
+*.deps
+*.log
+*.tlog
