@@ -1,0 +1,180 @@
+﻿  
+  D:\Final_K_Means_RonGinat\Parallel-K_MEANS\Parallel-K_MEANS>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\MPICH2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\pointClassification.cu.obj "D:\Final_K_Means_RonGinat\Parallel-K_MEANS\Parallel-K_MEANS\pointClassification.cu" -clean 
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  pointClassification.cu
+  
+  D:\Final_K_Means_RonGinat\Parallel-K_MEANS\Parallel-K_MEANS>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\MPICH2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\refreshKernel.cu.obj "D:\Final_K_Means_RonGinat\Parallel-K_MEANS\Parallel-K_MEANS\refreshKernel.cu" -clean 
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  refreshKernel.cu
+  Compiling CUDA source file pointClassification.cu...
+  Compiling CUDA source file refreshKernel.cu...
+  
+  D:\Final_K_Means_RonGinat\Parallel-K_MEANS\Parallel-K_MEANS>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\MPICH2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\pointClassification.cu.obj "D:\Final_K_Means_RonGinat\Parallel-K_MEANS\Parallel-K_MEANS\pointClassification.cu" 
+  
+  D:\Final_K_Means_RonGinat\Parallel-K_MEANS\Parallel-K_MEANS>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64"  -I"C:\Program Files\MPICH2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\refreshKernel.cu.obj "D:\Final_K_Means_RonGinat\Parallel-K_MEANS\Parallel-K_MEANS\refreshKernel.cu" 
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(409): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(410): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(411): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1471): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1472): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1473): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1904): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1905): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+c:\program files\mpich2\include\mpicxx.h(1906): warning : expression has no effect
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  pointClassification.cu
+CUDACOMPILE : nvcc warning : The 'compute_20', 'sm_20', and 'sm_21' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+  refreshKernel.cu
+  OMP.cpp
+  Methods.cpp
+d:\final_k_means_ronginat\parallel-k_means\parallel-k_means\methods.cpp(198): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+d:\final_k_means_ronginat\parallel-k_means\parallel-k_means\methods.cpp(199): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+d:\final_k_means_ronginat\parallel-k_means\parallel-k_means\methods.cpp(202): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+d:\final_k_means_ronginat\parallel-k_means\parallel-k_means\methods.cpp(206): warning C4244: '=': conversion from '__int64' to 'int', possible loss of data
+d:\final_k_means_ronginat\parallel-k_means\parallel-k_means\methods.cpp(216): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  Main.cpp
+d:\final_k_means_ronginat\parallel-k_means\parallel-k_means\main.cpp(7): warning C4101: 'status': unreferenced local variable
+d:\final_k_means_ronginat\parallel-k_means\parallel-k_means\main.cpp(6): warning C4101: 'comm': unreferenced local variable
+d:\final_k_means_ronginat\parallel-k_means\parallel-k_means\main.cpp(163): warning C4477: 'printf' : format string '%f' requires an argument of type 'double', but variadic argument 1 has type 'time_t (__cdecl *)(time_t *const )'
+  Generating Code...
+  Parallel-K_MEANS.vcxproj -> D:\Final_K_Means_RonGinat\Parallel-K_MEANS\x64\Debug\Parallel-K_MEANS.exe
+  Parallel-K_MEANS.vcxproj -> D:\Final_K_Means_RonGinat\Parallel-K_MEANS\x64\Debug\Parallel-K_MEANS.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart*.dll" "D:\Final_K_Means_RonGinat\Parallel-K_MEANS\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart32_80.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin\cudart64_80.dll
+          2 file(s) copied.
