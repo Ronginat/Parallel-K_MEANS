@@ -1,4 +1,4 @@
-Debug
+*/**/Debug
 *.exe
 /obj
 *.dll
@@ -6,4 +6,5 @@ Debug
 *.obj
 *.deps
 *.log
-*.tlog
+Parallel-K_MEANS.tlog/
+vs/
