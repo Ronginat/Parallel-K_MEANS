@@ -3,8 +3,8 @@ Parallel and Distributed version of K_Means algorithm for clustering array N of 
 the lecturer was boris moruz. afeka college.
 
 this solution contains 64bit Cuda project (version 8.0), Mpi and OpenMp methods.
-to run this project you need you will need an Nvidia GPU that compatible with cuda toolkit.
-So if you didn't already, install Cuda (possible to install a higher than 8.0, you will just need to open a new cuda project yourself).
+to run this project you will need Nvidia's GPU that compatible with cuda toolkit.
+If you didn't already, install Cuda (possible to install a higher than 8.0, you will just need to open a new cuda project yourself).
 Also, you will need to install mpich, which is more difficult to install. 
 I downloaded the mpich from here http://www.mpich.org/static/downloads/1.4.1p1/
 and then used this guide http://swash.sourceforge.net/online_doc/swashimp/node9.html
